@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Smart Irrigation System</title><script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+    a{
+    text-decoration:none;
+    color:green;
+    }
+    </style>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->   
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">  <!--The required rel attribute specifies the relationship between the current document and the linked document/resource. -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <!-- endbuild -->
+
+
+
+</head>
+    <body bgcolor="#3366ff">
+
+        <div>
+            <!--Hey! This is the original version
+                     of Simple CSS Waves-->
+
+<div class="header">
+
+   
+    
+    
+    <div><!--container for waves-->
+       <div>
+            <center>
+                <font color="00F6FF" face="Agency FB"><h2><I><B>S</B>mart <B>I</B>rrigation <B>S</B>ystem</I></h2></font>
+            <!-- <img src= img/sprinkler1.png alt="SIS logo" /><br><br> -->
+        
+        
+        
+        
+        <div class = "row row-content">
+            <div class =" col-sm-6">       
+                <input type="button" id = "automat" value="Automatic"> 
+            </div>
+            <div class="col-12 col-sm-6"> 
+                <input type="button" id = "manual" value="Manual">
+            </div>    
+        </div>
+        
+        
+        <input type="button" id = "start1" value="Start" ><br> 
+        <input type="button" id = "stop1" value="Stop" ><br>
+        
+        
+        
+        <div class = "row row-content">
+            <div class ="col-12 col-sm-6">   
+            <h3 id = "current" style="background-color:grey;" >Current State : <span id = "modify"> OFF </span> </h3> 
+            </div>
+            <div class="col-12 col-sm-3"> 
+                <h3 style="background-color:grey;">Moisture Percent: <span id = "moist"> NILL </span></h3>
+            </div>
+            <div class="col-12 col-sm-3"> 
+                <h3 style="background-color:grey;">Temperature: <span id = "temp"> NILL </span></h3>
+            </div>
+        </div>
+        
+        <script src = "effects.js"> </script>
+        
+        </div>
+
+        <!--Waves Container-->
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
+    
+    </div>
+    <!--Header ends-->
+    
+    <!--Content starts-->
+    
+    <!--Content ends-->
+        
+        <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#"></a>   
+               <div class ="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home </a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu </a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>                   
+                    </ul>      
+               </div>                
+            </div>
+            <span class="navbar-text">
+                <a data-toggle="modal" data-target="#loginModal">
+                <span class="fa fa-sign-in"></span> Login</a>
+            </span>
+        </nav>
+
+
+
+
+</body>
+
+</div>
+
+
+</html>
+
