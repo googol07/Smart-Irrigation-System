@@ -6,13 +6,7 @@
 
 
 **INTRODUCTION**<br>
-The main objective of this project is to provide water automatically based on the moisture
-value and temperature value. If the moisture value drops the relay motor starts and and vice versa
-too. It also depends on the temperature , if it gets higher the motors start and irrigation is done
-using a microcontroller (Arduino Uno). There are many systems available to water savings in
-various crops, from basic ones to more technologically advanced ones. For instance, in one
-system plant watering status was monitored and irrigation scheduled based on temperature
-presents in the soil content of the plant.
+This System will enable the Farmers to Irrigate their feilds from the comfort of their homes and moreover it will can help in saving water .The System has Two modes of operation and the user can switch from one mode to another with a simple click , The Two Modes are - Fisrt one is Manual:- When the system is in this mode then The farmer can Hismself Turn on or off the sprinklers in his feild from anywhere , and the Second Mode is Automatic:-  In Which The System is Itself capable of taking decision of when to Switch on and When to Switch off the sprinklers and the decision is taken based on current moisture value of the soil and The current temperature of the surrounding , which are measured through sensors in real time. 
 
 **PROBLEM FORMULATION**<br>
 The traditional method of irrigation wastes a lot of water , which already had become a scarcity
@@ -88,8 +82,9 @@ The sprinkler will start as soon as we click on the OK button.
 
 
 **CONCLUSION**<br>
-This System will be saving both Water and the time and hard work of the farmers in the process of irrigation of feilds With more and more advanced technologies
-and further improvements can make it more efficient, fast and easy to use and way cheaper. We
+This System will be saving both Water and the time and hard work of the farmers in the process of irrigation of feilds. And  
+with more advanced technologies
+further improvements can make it more efficient, fast and easy to use and way cheaper. We
 can also incorporate the rainfall and harvesting patterns, soil types and their requirements , and
 some other physical factors. This application in the field of agriculture with use of
 hardwares and IOT ensures the proper usage of water resources and increase in the agricultural
