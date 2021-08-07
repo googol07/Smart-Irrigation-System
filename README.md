@@ -21,7 +21,6 @@ factors mentioned above without the intervention of farmers.
 2. Controlling the motors with just a click on the button.<br>
 3. Building a TinkerCad model to illustrate the working of the motors and sensors.<br>
 
-
 **MODEL**<br>
 Tinkerkad is a modelling program which is used for 3D design and runs in a web browser. A
 model for this system is made using a relay motor, Arduino UNO , breadboard , H-bridge motor
