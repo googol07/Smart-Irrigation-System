@@ -44,7 +44,6 @@ ON/OFF state . When the temperature is greater than 35 degree celsius or moistur
 60% it will be in ON state and in rest of the cases the motors will be in OFF state.
 
 
-
 **RESULTS AND OUTCOMES**<br><br>
 **TINKERCAD**<br>
 1.Temperature-32 degree Celsius(<35)<br>
