@@ -60,6 +60,7 @@ Motor will be in ON state (notice RPM value on the motor)<br>
 
 **WEBSITE-**
 
+
 **AUTOMATIC MODE-**
 1. Temperature-41 degree Celsius(>35)
 2. Moisture content- 54 (<60%)
